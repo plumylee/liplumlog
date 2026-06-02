@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1421" height="1280" viewBox="0 0 1421 1280">
+  <defs>
+    <style>
+      .bg{fill:#fff}.grid{stroke:#ddd;stroke-width:1}.h{font:700 20px Arial,"PingFang SC","Microsoft YaHei",sans-serif;fill:#111827}.t{font:400 16px Arial,"PingFang SC","Microsoft YaHei",sans-serif;fill:#111827}.b{font:700 17px Arial,"PingFang SC","Microsoft YaHei",sans-serif;fill:#111827}.r{fill:#d93025;font-weight:700}.blue{fill:#1677ff}.muted{fill:#6b7280}.tag{fill:#f8fafc;stroke:#cbd5e1;stroke-width:1}.wm{font:700 26px Arial,"PingFang SC",sans-serif;fill:#eef0f3}
+    </style>
+  </defs>
+  <rect class="bg" width="1421" height="1280"/>
+  <g opacity=".62" transform="rotate(22 710 640)">
+    <text class="wm" x="110" y="150">李盈盈 / 4774</text><text class="wm" x="470" y="150">李盈盈 / 4774</text><text class="wm" x="830" y="150">李盈盈 / 4774</text>
+    <text class="wm" x="110" y="430">李盈盈 / 4774</text><text class="wm" x="470" y="430">李盈盈 / 4774</text><text class="wm" x="830" y="430">李盈盈 / 4774</text>
+    <text class="wm" x="110" y="710">李盈盈 / 4774</text><text class="wm" x="470" y="710">李盈盈 / 4774</text><text class="wm" x="830" y="710">李盈盈 / 4774</text>
+    <text class="wm" x="110" y="990">李盈盈 / 4774</text><text class="wm" x="470" y="990">李盈盈 / 4774</text><text class="wm" x="830" y="990">李盈盈 / 4774</text>
+  </g>
+  <g>
+    <line class="grid" x1="0" y1="80" x2="1421" y2="80"/><line class="grid" x1="0" y1="228" x2="1421" y2="228"/>
+    <line class="grid" x1="0" y1="372" x2="1421" y2="372"/><line class="grid" x1="0" y1="620" x2="1421" y2="620"/>
+    <line class="grid" x1="0" y1="932" x2="1421" y2="932"/><line class="grid" x1="0" y1="1080" x2="1421" y2="1080"/>
+    <line class="grid" x1="0" y1="1223" x2="1421" y2="1223"/>
+    <line class="grid" x1="238" y1="0" x2="238" y2="1280"/><line class="grid" x1="436" y1="0" x2="436" y2="1280"/>
+    <line class="grid" x1="835" y1="0" x2="835" y2="1280"/><line class="grid" x1="1107" y1="0" x2="1107" y2="1280"/>
+  </g>
+  <g transform="translate(30 10)">
+    <rect class="tag" x="0" y="0" width="112" height="26" rx="4"/><text class="b" x="8" y="19">scene_code</text>
+    <rect class="tag" x="235" y="0" width="108" height="26" rx="4"/><text class="b" x="243" y="19">scene_name</text>
+    <rect class="tag" x="432" y="0" width="176" height="26" rx="4"/><text class="b" x="440" y="19">trigger_condition</text>
+    <rect class="tag" x="829" y="0" width="60" height="26" rx="4"/><text class="b" x="837" y="19">score</text>
+    <rect class="tag" x="1104" y="0" width="115" height="26" rx="4"/><text class="b" x="1112" y="19">cap_rule</text>
+    <text class="h" x="0" y="56">场景代码</text><text class="h" x="230" y="56">场景名</text><text class="h" x="426" y="56">触发条件</text><text class="h" x="826" y="56">发分值</text><text class="h" x="1100" y="56">封顶规则</text>
+  </g>
+  <g class="t">
+    <text x="30" y="110">bbs_complete_profile</text><text class="h" x="260" y="110">完善主页</text>
+    <text x="458" y="110">1.  修改个性化头像（并审核通过）</text><text x="458" y="144">2.  修改昵称（并审核通过）</text><text x="458" y="178">3.  填写个人简介（≥25 字并审核通过）</text><text class="r" x="458" y="212">以上条件关系：且</text>
+    <text class="b" x="856" y="110">+20 分</text><text x="1128" y="110">终身限 1 次。</text>
+
+    <text x="30" y="256">bbs_daily_login</text><text class="h" x="260" y="256">每日首登</text><text x="458" y="256">1.  用户每日首次成功登录</text><text class="b" x="856" y="256">+5 分</text>
+    <text x="1128" y="256">周总发分 20000 分</text><text x="1128" y="290">分时段释放发放名额</text><text class="blue" x="1128" y="324">⭐计算方法：社区-每日登</text><text class="blue" x="1128" y="356">录积分-分时段释放名额</text>
+
+    <text x="30" y="400">bbs_publish_post_regular</text><text class="h" x="260" y="400">发帖（普通用户）</text>
+    <text x="458" y="400">1.  普通用户</text><text x="486" y="434">a.  title 为空  or</text><text x="486" y="468">b.  非蓝v  or</text><text x="486" y="502">c.  非黄v</text>
+    <text x="458" y="540">2.  发布 1 个新帖（字数≥50 并审核通过 status = 0）</text><text class="r" x="458" y="604">以上条件关系：且</text>
+    <text class="b" x="856" y="400">+10 分</text><text x="1128" y="400">每日上限 1 次。</text>
+
+    <text x="30" y="648">bbs_publish_post_creator</text><text class="h" x="260" y="648">发帖（创作者）</text>
+    <text x="458" y="648">1.  认证创作者</text><text x="486" y="682">a.  title like '% 创作者 %'</text><text x="486" y="716">b.  title = 'KVP'</text>
+    <text x="458" y="754">2.  发布 1 个新帖（字数≥50 并审核通过 status = 0）</text><text class="r" x="458" y="820">以上条件关系：且</text>
+    <text class="b" x="856" y="648">梯次跃升：</text><text x="856" y="684">•  Lv.1 新人创作者 +30 分</text><text x="856" y="720">•  Lv.2 潜力创作者 +40 分</text><text x="856" y="756">•  Lv.3 优质创作者 +50 分</text><text x="856" y="792">•  Lv.4 核心创作者 +60 分</text><text x="856" y="828">•  Lv.5 特邀创作者 +100</text><text x="856" y="864">•  核心 KVP +150 分</text><text class="blue" x="856" y="900">注：按照用户发帖时的创作者等级快照进行结算。</text>
+    <text x="1128" y="648">每日上限 1 次。</text>
+
+    <text x="30" y="960">bbs_knowledge_included</text><text class="h" x="260" y="960">知识库收录</text><text x="458" y="960">1.  全局社区用户</text><text x="458" y="996">2.  帖子内容被知识库收录成功</text><text class="blue" x="458" y="1032">参考：【社区】帖子智能收录需求文档</text><text class="r" x="458" y="1064">以上条件关系：且</text><text class="b" x="856" y="960">+100 分</text><text x="1128" y="960">每日上限 1 次。</text>
+
+    <text x="30" y="1108">bbs_reply_accepted</text><text class="h" x="260" y="1108">回复被采纳</text><text x="458" y="1108">1.  全局社区用户</text><text x="458" y="1144">2. 【提问】帖下成功回复，且回复被采纳的 is_resolved = 1</text><text class="r" x="458" y="1208">以上条件关系：且</text><text class="b" x="856" y="1108">+30 分</text><text x="1128" y="1108">每日上限 2 次（最高 +60 分）。</text>
+
+    <text x="30" y="1252">bbs_interactive_comment</text><text class="h" x="260" y="1252">互动评论</text><text x="458" y="1252">1.  全局社区用户</text><text class="b" x="856" y="1252">+5 分</text><text x="1128" y="1252">每日上限 2 次（最高 +10 分）。</text>
+  </g>
+</svg>

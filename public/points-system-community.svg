@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="916" height="1276" viewBox="0 0 916 1276">
+  <defs>
+    <style>
+      .page{fill:#fff}.soft{fill:#eef8ff}.line{stroke:#e5e7eb;stroke-width:1}.card{fill:#fff;stroke:#e5e7eb;stroke-width:1}.orange{fill:#ff7a1a}.txt{font:400 14px Arial,"PingFang SC","Microsoft YaHei",sans-serif;fill:#111827}.small{font:400 11px Arial,"PingFang SC","Microsoft YaHei",sans-serif;fill:#6b7280}.bold{font:700 16px Arial,"PingFang SC","Microsoft YaHei",sans-serif;fill:#111827}.cap{font:400 17px Arial,"PingFang SC","Microsoft YaHei",sans-serif;fill:#333}.wm{font:700 22px Arial,"PingFang SC",sans-serif;fill:#edf0f3}
+    </style>
+  </defs>
+  <rect class="page" width="916" height="1276"/>
+  <g opacity=".65" transform="rotate(23 458 638)">
+    <text class="wm" x="0" y="80">李盈盈 / 4774</text><text class="wm" x="320" y="80">李盈盈 / 4774</text><text class="wm" x="640" y="80">李盈盈 / 4774</text>
+    <text class="wm" x="0" y="360">李盈盈 / 4774</text><text class="wm" x="320" y="360">李盈盈 / 4774</text><text class="wm" x="640" y="360">李盈盈 / 4774</text>
+    <text class="wm" x="0" y="640">李盈盈 / 4774</text><text class="wm" x="320" y="640">李盈盈 / 4774</text><text class="wm" x="640" y="640">李盈盈 / 4774</text>
+    <text class="wm" x="0" y="920">李盈盈 / 4774</text><text class="wm" x="320" y="920">李盈盈 / 4774</text><text class="wm" x="640" y="920">李盈盈 / 4774</text>
+  </g>
+  <rect class="soft" x="14" y="10" width="890" height="594" rx="4"/>
+  <rect class="card" x="14" y="10" width="890" height="594" rx="4"/>
+  <g transform="translate(34 24)">
+    <text class="bold" x="0" y="18" fill="#ff5c00">WPS 社区</text>
+    <text class="orange" x="138" y="18">综合</text><text class="txt" x="196" y="18">问答</text><text class="txt" x="252" y="18">圈子</text>
+    <rect class="card" x="310" y="0" width="300" height="34" rx="17"/><text class="small" x="344" y="22">搜索帖子、问题或用户</text>
+    <rect class="card" x="626" y="0" width="46" height="34" rx="5"/><text class="orange" x="638" y="22">签到</text>
+    <rect x="682" y="0" width="68" height="34" rx="5" fill="#ff7900"/><text x="704" y="22" font-family="Arial,'PingFang SC'" font-size="13" fill="#fff">发帖</text>
+  </g>
+  <g transform="translate(44 97)">
+    <rect class="card" width="558" height="504" rx="7"/><text class="orange" x="22" y="28">推荐</text><text class="small" x="78" y="28">最新发布</text><text class="small" x="162" y="28">最新回复</text><text class="small" x="246" y="28">热门</text>
+    <g transform="translate(18 58)">
+      <rect class="card" width="522" height="103" rx="6"/><rect x="18" y="18" width="40" height="40" rx="8" fill="#2f6bdf"/><text x="78" y="28" class="bold">WPS Office 2024 个人版（PC）正式发布！AI 助力办公更高效 🚀</text><text x="78" y="52" class="small">WPS Office 2024 个人版全新升级，AI 写作、AI 表格、AI 阅读等多项能力再进化。</text><text x="78" y="84" class="small">WPS社区官方  ·  5小时前</text><text x="400" y="84" class="small">👁 1.2万   💬 132   ♡ 356</text>
+    </g>
+    <g transform="translate(18 180)">
+      <rect class="card" width="522" height="90" rx="6"/><circle cx="38" cy="38" r="21" fill="#7db7d8"/><text x="78" y="30" class="bold">WPS表格：如何快速合并多个工作表的数据？（附公式）</text><text x="78" y="54" class="small">分享一个实用技巧，轻松搞定多表合并。</text><text x="400" y="70" class="small">👁 3589   💬 28   ♡ 124</text>
+    </g>
+    <g transform="translate(18 288)">
+      <rect class="card" width="522" height="90" rx="6"/><circle cx="38" cy="38" r="21" fill="#f3c7b1"/><text x="78" y="30" class="bold">WPS文字页眉横线怎么设置？超详细图文教程来了！</text><text x="78" y="54" class="small">跟着步骤一起学起来吧。</text><text x="400" y="70" class="small">👁 2756   💬 16   ♡ 68</text>
+    </g>
+    <g transform="translate(18 396)">
+      <rect class="card" width="522" height="90" rx="6"/><circle cx="38" cy="38" r="21" fill="#badc84"/><text x="78" y="30" class="bold">WPS PDF 转 Word 保留格式的方法，有这 3 个就够了！</text><text x="78" y="54" class="small">实测好用的 3 种方法。</text><text x="400" y="70" class="small">👁 4120   💬 34   ♡ 102</text>
+    </g>
+  </g>
+  <g transform="translate(618 97)">
+    <rect class="card" width="255" height="130" rx="7"/><circle cx="42" cy="35" r="23" fill="#e7c8ad"/><text class="bold" x="80" y="32">办公小能手</text><text x="154" y="33" font-family="Arial" font-size="9" fill="#fff"><tspan fill="#ff9d00">Lv.7</tspan></text><text class="small" x="80" y="55">WPS社区资深用户</text><text class="txt" x="28" y="104">126</text><text class="txt" x="112" y="104">89</text><text class="txt" x="204" y="104">2568</text><text class="small" x="22" y="119">我的帖子</text><text class="small" x="106" y="119">我的回复</text><text class="small" x="198" y="119">我的积分</text>
+    <rect class="card" y="146" width="255" height="170" rx="7"/><text class="bold" x="16" y="174">今日热榜</text><text class="small" x="190" y="174">换一换</text><text class="small" x="18" y="204">1  WPS Office 2024 个人版正式发布!</text><text class="small" x="18" y="232">2  WPS表格：如何快速合并多个工作表...</text><text class="small" x="18" y="260">3  WPS文字页眉横线设置方法详解</text><text class="small" x="18" y="288">4  WPS PDF 转 Word 保留格式的 3 种方法</text>
+    <rect class="card" y="334" width="255" height="158" rx="7"/><text class="bold" x="16" y="362">热门圈子</text><text class="small" x="198" y="362">更多</text><circle cx="28" cy="396" r="15" fill="#2f6bdf"/><text class="txt" x="56" y="400">WPS Office</text><rect class="card" x="203" y="382" width="42" height="22" rx="4"/><text class="orange" x="214" y="397">加入</text><circle cx="28" cy="438" r="15" fill="#22b773"/><text class="txt" x="56" y="442">WPS 表格</text><rect class="card" x="203" y="424" width="42" height="22" rx="4"/><text class="orange" x="214" y="439">加入</text><circle cx="28" cy="480" r="15" fill="#3d79e6"/><text class="txt" x="56" y="484">WPS 文字</text><rect class="card" x="203" y="466" width="42" height="22" rx="4"/><text class="orange" x="214" y="481">加入</text>
+  </g>
+  <rect x="390" y="69" width="150" height="40" rx="8" fill="#fff" stroke="#f2d7ba" filter="none"/><text class="bold" x="416" y="94">登录成功</text><text class="orange" x="488" y="94" font-family="Arial,'PingFang SC'" font-size="15" font-weight="700">+5 积分</text>
+  <text class="cap" x="356" y="628">登录成功-轻量提示-发分成功</text>
+
+  <g transform="translate(14 652)">
+    <rect class="page" width="890" height="594"/><rect class="card" width="890" height="594" rx="4"/>
+    <g transform="translate(32 17)">
+      <text class="bold" x="0" y="17">WPS Community</text><text class="txt" x="145" y="18">综合</text><text class="txt" x="202" y="18">问答</text><text class="txt" x="258" y="18">圈子</text><rect class="card" x="322" y="0" width="274" height="30" rx="4"/><text class="small" x="356" y="20">搜索帖子、问题、用户或圈子</text><text class="txt" x="650" y="18">AI</text><text class="txt" x="700" y="18">应用</text><text class="txt" x="750" y="18">🔔</text><rect class="card" x="790" y="0" width="50" height="30" rx="4"/><text class="orange" x="800" y="20">签到</text>
+    </g>
+    <g transform="translate(32 110)">
+      <text class="txt" x="0" y="0">推荐</text><text class="small" x="64" y="0">最新</text><text class="small" x="128" y="0">精华</text><text class="small" x="192" y="0">关注</text>
+      <g transform="translate(0 28)"><rect class="card" width="535" height="124" rx="5"/><rect x="16" y="28" width="72" height="72" fill="#f8fafc" stroke="#c8cdd2"/><text class="bold" x="110" y="40">WPS AI 新功能体验：一键生成思维导图，效率翻倍！</text><text class="small" x="110" y="66">最近体验了 WPS AI 的新功能，真的很惊喜！</text><text class="small" x="110" y="106">小W不知道 · 2小时前</text><text class="small" x="386" y="106">♡ 128   💬 36   👁 1.2k</text></g>
+      <g transform="translate(0 172)"><rect class="card" width="535" height="124" rx="5"/><rect x="16" y="28" width="72" height="72" fill="#f8fafc" stroke="#c8cdd2"/><text class="bold" x="110" y="40">WPS 表格技巧：3 个函数组合，轻松搞定数据统计</text><text class="small" x="110" y="66">分享一个超实用的表格技巧。</text><text class="small" x="110" y="106">表格达人 Pro · 5小时前</text><text class="small" x="386" y="106">♡ 96   💬 28   👁 860</text></g>
+      <g transform="translate(0 316)"><rect class="card" width="535" height="124" rx="5"/><rect x="16" y="28" width="72" height="72" fill="#f8fafc" stroke="#c8cdd2"/><text class="bold" x="110" y="40">WPS 文字排版心得：让文档颜值瞬间提升的 5 个小技巧</text><text class="small" x="110" y="66">排版真的太重要了！</text><text class="small" x="110" y="106">文档美化师 · 昨天 10:23</text><text class="small" x="386" y="106">♡ 76   💬 19   👁 662</text></g>
+    </g>
+    <g transform="translate(592 60)">
+      <rect class="card" width="220" height="38" rx="6"/><text class="orange" x="18" y="24">本时段积分已发完，请稍后再来</text><text class="txt" x="206" y="24">×</text><text class="orange" x="222" y="38">← 名额抢空时的动态文案替换</text>
+      <rect class="card" y="130" width="254" height="180" rx="5"/><text class="bold" x="16" y="158">社区公告</text><text class="small" x="202" y="158">更多</text><text class="small" x="18" y="194">关于 WPS 社区积分发放规则调整的说明</text><text class="small" x="18" y="226">WPS AI 功能体验官招募中</text><text class="small" x="18" y="258">WPS 2024 春季更新日志</text><text class="small" x="18" y="290">社区活动：分享你的高效办公技巧</text>
+      <rect class="card" y="330" width="254" height="190" rx="5"/><text class="bold" x="16" y="358">热门话题</text><text class="small" x="202" y="358">更多</text><text class="small" x="18" y="394">1  #WPS AI 有多好用#          12.6万 热度</text><text class="small" x="18" y="430">2  #WPS 表格技巧#              9.8万 热度</text><text class="small" x="18" y="466">3  #WPS 文字排版#              8.1万 热度</text><text class="small" x="18" y="502">4  #高效办公秘籍#              6.7万 热度</text>
+    </g>
+  </g>
+  <text class="cap" x="311" y="1264">登录成功-轻量提示-发完提示（合规要求）</text>
+</svg>

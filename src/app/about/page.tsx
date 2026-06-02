@@ -19,13 +19,7 @@ export default function AboutPage() {
       >
         <div className="max-w-6xl w-full h-full md:h-[75vh] overflow-y-auto md:overflow-hidden px-4 md:px-12 mx-auto relative pt-24 md:pt-14 hide-scrollbar pb-[15vh] md:pb-0">
           
-          {/* 
-            两栏排版（独立滚动视窗）：
-            - 左边：画廊级平铺探索视窗，一滚到底，避免双选项卡交互冲突。
-            - 间隔：浅浅、清澈的垂直分割线。
-            - 右边：单列画轴精品图像，完全无裁剪展示。
-          */}
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-16 w-full h-full items-stretch">
+          <div className="w-full h-full">
             
             {/* 针对 Webkit 浏览器隐藏滚动条 */}
             <style jsx global>{`
@@ -34,9 +28,8 @@ export default function AboutPage() {
               }
             `}</style>
 
-            {/* 左侧：画廊级平铺探索视窗 (8/12 宽度，在桌面端右侧加上极为内敛的细分割线) */}
             <div 
-              className="md:col-span-8 h-auto md:h-full overflow-visible md:overflow-y-auto pr-0 md:pr-12 space-y-12 scroll-smooth pb-0 md:pb-[15vh] hide-scrollbar md:border-r md:border-white/[0.04]"
+              className="max-w-3xl mx-auto h-auto md:h-full overflow-visible md:overflow-y-auto space-y-12 scroll-smooth pb-0 md:pb-[15vh] hide-scrollbar"
               style={{
                 scrollbarWidth: "none", // Firefox 隐藏滚动条
                 msOverflowStyle: "none" // IE 隐藏滚动条
@@ -164,44 +157,6 @@ export default function AboutPage() {
                 </div>
               </div>
             </div>
-
-            {/* 右侧：集中图片区域 (4/12 宽度，独立垂直滚动，增加 md:pl-10 微微将画卷整体往右侧推移) */}
-            <div 
-              className="md:col-span-4 h-auto md:h-full overflow-visible md:overflow-y-auto pr-0 md:pl-10 space-y-8 scroll-smooth pb-[5vh] md:pb-[15vh] hide-scrollbar flex flex-col items-center md:items-start mt-12 md:mt-0"
-              style={{
-                scrollbarWidth: "none", // Firefox 隐藏滚动条
-                msOverflowStyle: "none" // IE 隐藏滚动条
-              }}
-            >
-              {/* 人像原片 2 (直接采用原生 img 并设为 h-auto，彻底摒弃任何可能有裁切的外层 aspect/overflow 类，百分之百原画无损全显) */}
-              <div className="relative group/img2 w-[180px] md:w-[260px]">
-                <img 
-                  src="/alice-gen-1779295412219.webp" 
-                  alt="李盈盈 Plum 02"
-                  className="w-full h-auto rounded-md border border-white/10 bg-white/[0.02] opacity-90 group-hover/img2:opacity-100 transition-opacity duration-500 ease-out shadow-lg"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent pointer-events-none rounded-md" />
-              </div>
-
-              {/* 珠海风光 4 联片：采用单列（一行一张）画卷式排版，完美对准上方人像的 260px 宽度线 */}
-              <div className="space-y-3 w-[180px] md:w-[260px]">
-                <span className="text-[8px] text-white/25 tracking-[0.25em] font-serif uppercase block select-none pl-1">珠海纪行 // ZHUHAI DIARY</span>
-                <div className="flex flex-col gap-4">
-                  {[1, 2, 3, 4].map((num) => (
-                    <div key={num} className="relative aspect-[4/3] rounded-sm overflow-hidden border border-white/5 bg-white/[0.01] group/zhimg shadow-md">
-                      <img 
-                        src={`/Zhuhai${num}.jpg`} 
-                        alt={`珠海风光 ${num}`}
-                        className="w-full h-full object-cover opacity-85 group-hover/zhimg:opacity-100 group-hover/zhimg:scale-[1.03] transition-all duration-500 ease-out"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-transparent pointer-events-none" />
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-            </div>
-
           </div>
         </div>
       </motion.div>

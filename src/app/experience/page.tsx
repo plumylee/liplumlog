@@ -294,8 +294,8 @@ export default function ExperiencePage() {
             `}</style>
 
             <div className="max-w-4xl mx-auto h-full">
-              <section className="min-h-full flex flex-col items-center justify-center text-center select-none">
-                <div className="space-y-6">
+              <section className="relative min-h-full text-center select-none">
+                <div className="absolute left-1/2 top-1/2 w-full -translate-x-1/2 -translate-y-1/2 space-y-6">
                   <div className="space-y-2">
                     <span className="block text-[10px] text-white/22 tracking-[0.3em] uppercase font-serif">
                       Work Thesis
@@ -304,17 +304,21 @@ export default function ExperiencePage() {
                       工作核心
                     </span>
                   </div>
-                  <p className="text-xl md:text-3xl text-white/86 tracking-[0.12em] leading-loose font-serif font-medium">
-                    <span className="block">让 WPS 普通用户变成活跃用户</span>
-                    <span className="block">从活跃用户变成付费用户 / 高价值用户</span>
-                  </p>
+                  <div className="space-y-4 font-serif font-medium">
+                    <h1 className="text-3xl md:text-5xl text-white/90 tracking-[0.12em] leading-relaxed">
+                      把WPS卖给用WPS的人
+                    </h1>
+                    <p className="text-xl md:text-3xl text-white/72 tracking-[0.12em] leading-loose">
+                      让低活转高活，高活变付费
+                    </p>
+                  </div>
                 </div>
-                <span className="mt-12 text-[10px] text-white/24 tracking-[0.26em] uppercase font-serif">
+                <span className="absolute bottom-10 left-1/2 -translate-x-1/2 text-[10px] text-white/24 tracking-[0.26em] uppercase font-serif">
                   Scroll for Projects
                 </span>
               </section>
 
-              <div className="space-y-16 pt-10 md:pt-14">
+              <div className="space-y-16 pt-36 md:pt-48">
                 {cases.map((item) => {
                 const researchImages = getResearchImages(item.project);
                 const researchAside = renderResearchAside(researchImages);
@@ -415,6 +419,9 @@ export default function ExperiencePage() {
                 <article className="w-full pt-3 pb-8">
                   <TextSection label="实习经历概述">
                     <div className="space-y-6 border-l border-white/[0.08] pl-5 md:pl-6">
+                      <p className="text-[13px] md:text-sm text-white/78 leading-loose tracking-[0.09em] font-light">
+                        2024年在WPS灵犀进行实习（六个月）、先前在滴滴出行担任产品运营岗的实习（五个月）。实习内容如下
+                      </p>
                       {internshipSummary.map((section, index) => (
                         <section key={section.title} className="space-y-3">
                           <h3 className="text-[13px] md:text-sm text-amber-200/80 leading-loose tracking-[0.1em] font-medium">

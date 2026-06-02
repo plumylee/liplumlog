@@ -83,12 +83,6 @@ export default function AboutPage() {
                           </h3>
                           <span className="text-xs font-serif text-white/35">2022.09 - 2025.05</span>
                         </div>
-                        
-                        <div className="space-y-3 text-[13.5px] text-white/65 leading-loose tracking-[0.12em] font-light">
-                          <p>
-                            研究生阶段主修管理科学与工程，持续关注产品、运营、数据与商业化增长之间的连接方式。
-                          </p>
-                        </div>
                       </div>
                     </div>
 
